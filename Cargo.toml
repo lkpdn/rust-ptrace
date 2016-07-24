@@ -12,4 +12,7 @@ name = "ptrace"
 
 [dependencies]
 bitflags = "0.1"
-posix-ipc = "0.0"
+posix-ipc = { git = "https://github.com/lkpdn/rust-posix-ipc", rev = "47f78cd" } # temp
+enum_primitive = "*"
+num = "*"
+libc = "*"
